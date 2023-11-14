@@ -1,0 +1,8 @@
+fieldset {
+  border: 3px solid #df3f3f;
+  padding: 20px;
+}
+
+input {
+  display: block;
+}
