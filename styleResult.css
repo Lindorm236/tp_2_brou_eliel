@@ -1,8 +1,9 @@
 fieldset {
-  border: 3px solid #df3f3f;
+  border: 3px solid rgb(9, 8, 8);
   padding: 20px;
 }
 
 input {
   display: block;
+  width: 20%;
 }

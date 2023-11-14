@@ -10,7 +10,7 @@
     for ($i=1; $i <= $iMax; $i++) { 
        ?>
        <fieldset>
-        <legend>Adresse <?php echo $i ?></legend>
+        <legend>Adresse  <?php echo $i ?></legend>
        <label for="id">id</label>
         <input type="text" id="id" name="id">
         <label for="street">street</label>
@@ -33,6 +33,6 @@
 
 <?php
 
-var_dump($_POST);
+
 ?>
 </html>
