@@ -1,0 +1,39 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 120%;
+}
+form {
+  padding: 10px;
+  width: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+fieldset {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 3px solid #df3f3f;
+  padding-bottom: 40px;
+}
+label {
+  display: block;
+  text-align: center;
+}
+
+input.saisie {
+  background-color: #fcbfbf;
+  padding: 2px;
+  width: 10%;
+  margin-left: 45%;
+}
+
+button {
+  background-color: #fcbfbf;
+  width: 20%;
+  cursor: pointer;
+  margin-left: 42%;
+  margin-top: 5%;
+}
