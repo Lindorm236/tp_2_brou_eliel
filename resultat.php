@@ -3,7 +3,7 @@
     <title>Resultat</title>
     <link rel="stylesheet" href="styleResult.css">
 </head>
-<form action="">
+<form action="validation.php" method="post">
     <?php
     $iMax = $_POST["address"];
     intval($iMax);
@@ -12,23 +12,31 @@
        <fieldset>
         <legend>Adresse  <?php echo $i ?></legend>
        <label for="id">id</label>
-        <input type="text" id="id" name="id">
+        <input class="info" type="text" id="id" name="id">
         <label for="street">street</label>
-        <input type="text" id="street" name="street">
+        <input class="info" type="text" id="street" name="street">
         <label for="streetNumber">street Number</label>
-        <input type="text" id="streetNumber" name="streetNumber">
+        <input class="info" type="text" id="streetNumber" name="streetNumber">
         <label for="street">street</label>
-        <input type="text" id="street" name="street">
+        <input class="info" type="text" id="street" name="street">
         <select id="type">
             <option value="livraison">Livraison</option>
             <option value="facturation">Facturation</option>
             <option value="autres">Autres</option>
         </select>
+        <select id="localisation">
+            <option value="Montréal">Montréal</option>
+            <option value="Quebec">Quebec</option>
+            <option value="Ontario">Ontario</option>
+        </select>
         </fieldset>
        <?php
     }
+
     ?>
-    <a href="index.html"><- Retourner à la page précédente</a>
+    <button type="submit">Envoyer</button>
+    <button type="reset">Annuler</button>
+    
 </form>
 
 <?php
