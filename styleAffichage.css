@@ -1,0 +1,12 @@
+p {
+  text-align: center;
+  font-size: 120%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: aliceblue;
+}
+fieldset {
+  width: 100px;
+}
